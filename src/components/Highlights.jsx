@@ -38,7 +38,7 @@ const Highlights = () => {
                     </div>
                 </div>
                 <div className="right-column">
-                    <div className="apple-gradient">
+                    <div className="aeron-gradient">
                         <img src="/ai.png" alt="AI" />
                         <p>Built for <br />
                             <span>Aeron creative workflow.</span></p>
