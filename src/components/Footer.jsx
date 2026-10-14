@@ -4,8 +4,8 @@ const Footer = () => {
     return (
         <footer>
             <div className="info">
-                <p className="font-bold">Recreated Apple experience for GSAP animations and Three.js practice • <span className="text-indigo">by Shreyansh</span></p>
-                <img src="/logo.svg" alt ="Apple logo"/>
+                <p className="font-bold">Aeron — cinematic laptop product concept</p>
+                <span className="text-indigo font-bold">AERON</span>
             </div>
 
             <hr />

@@ -51,12 +51,12 @@ const Showcase = () => {
               <p>
                 Introducing{" "}
                 <span className="text-white">
-                  M4, the next generation of Apple silicon
+                  an advanced laptop chipset built for creative work
                 </span>
                 . M4 powers
               </p>
               <p>
-                It drives Apple Intelligence on iPad Pro, so you can write,
+                Designed for demanding creative workflows, so you can write,
                 create, and accomplish more with ease. All in a design that’s
                 unbelievably thin, light, and powerful.
               </p>
@@ -66,20 +66,20 @@ const Showcase = () => {
                 hardware-accelerated ray tracing brings console-level graphics to
                 your fingertips.
               </p>
-              <p className="text-primary">Learn more about Apple Intelligence</p>
+              <p className="text-primary">Learn more about Aeron creative workflow</p>
             </div>
           </div>
 
           <div className="max-w-3xs space-y-14">
             <div className="space-y-2">
               <p>Up to</p>
-              <h3>4x faster</h3>
-              <p>pro rendering performance than M2</p>
+              <h3>Fluid</h3>
+              <p>creative rendering and immersive graphics</p>
             </div>
             <div className="space-y-2">
               <p>Up to</p>
-              <h3>1.5x faster</h3>
-              <p>CPU performance than M2</p>
+              <h3>Responsive</h3>
+              <p>multitasking in an interactive concept</p>
             </div>
           </div>
         </div>
