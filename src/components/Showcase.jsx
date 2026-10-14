@@ -45,7 +45,7 @@ const Showcase = () => {
       <div className="content">
         <div className="wrapper">
           <div className="lg:max-w-md">
-            <h2>Rocket Chip</h2>
+            <h2>Made to create</h2>
 
             <div className="space-y-5 mt-7 pe-10">
               <p>
@@ -53,7 +53,7 @@ const Showcase = () => {
                 <span className="text-white">
                   an advanced laptop chipset built for creative work
                 </span>
-                . M4 powers
+                . Built for focused creative work.
               </p>
               <p>
                 Designed for demanding creative workflows, so you can write,
@@ -66,7 +66,7 @@ const Showcase = () => {
                 hardware-accelerated ray tracing brings console-level graphics to
                 your fingertips.
               </p>
-              <p className="text-primary">Learn more about Aeron creative workflow</p>
+              <p className="text-primary">Explore the Aeron creative experience</p>
             </div>
           </div>
 

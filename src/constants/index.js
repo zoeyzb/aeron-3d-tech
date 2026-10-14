@@ -1,10 +1,10 @@
 const navlinks = [
-    { label: "Store" },
-    { label: "Mac" },
-    { label: "iPhone" },
-    { label: "Watch" },
-    { label: "Vision" },
-    { label: "AirPods" },
+    { label: "Overview" },
+    { label: "Design" },
+    { label: "Features" },
+    { label: "Performance" },
+    { label: "Experience" },
+    { label: "Explore" },
 ];
 
 const noChangeParts = [
@@ -99,8 +99,8 @@ const features = [
     {
         id: 4,
         icon: "/feature-icon4.svg",
-        highlight: "AirDrop.",
-        text: "Wirelessly share photos, large files, and more between your iPhone, your Mac, & other devices.",
+        highlight: "Seamless sharing.",
+        text: "A connected workflow across your creative tools and devices.",
         styles: "right-5 md:right-20 top-[70%] opacity-0 translate-y-5",
     },
     {

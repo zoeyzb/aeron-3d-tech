@@ -22,18 +22,18 @@ const Highlights = () => {
     return (
         <section id="highlights">
             <h2>There’s never been a better time to upgrade.</h2>
-            <h3>Here’s what you get with the new MacBook Pro.</h3>
+            <h3>Introducing the AERON Pro concept.</h3>
 
             <div className="masonry">
                 <div className="left-column">
                     <div>
                         <img src="/laptop.png" alt="Laptop" />
-                        <p>Fly through demanding tasks up to 9.8x faster.</p>
+                        <p>Designed for fluid creative workflows.</p>
                     </div>
                     <div>
                         <img src="/sun.png" alt="Sun" />
                         <p>A stunning <br />
-                            Liquid Retina XDR <br/>
+                            Expansive, vivid <br/>
                             display.</p>
                     </div>
                 </div>
@@ -46,9 +46,9 @@ const Highlights = () => {
                     <div>
                         <img src="/battery.png" alt="Battery" />
                         <p>Up to
-                            <span className="green-gradient">{' '}14 more hours{' '}</span>
+                            <span className="green-gradient">{' '}all-day freedom{' '}</span>
                             battery life.
-                            <span className="text-dark-100">{' '}(Up to 24 hours total.)
+                            <span className="text-dark-100">{' '}A concept showcase; specifications are illustrative.
                             </span></p>
                     </div>
                 </div>

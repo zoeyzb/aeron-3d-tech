@@ -1,29 +1,4 @@
-import React from 'react'
-import { navlinks } from '../constants'
-
-const Navbar = () => {
-  return (
-    <header>
-      <nav>
-        <a href="/" className="font-bold text-xl" aria-label="Aeron home">AERON</a>
-        <ul>
-          {navlinks.map((link)=>(
-            <li key={link.label}>
-              <a href={link.label}>{link.label}</a>
-            </li>))}
-        </ul>
-
-        <div className='flex-center gap-3'>
-          <button>
-            <img src="./search.svg" alt="Search" />
-          </button>
-          <button>
-            <img src="./cart.svg" alt="Cart" />
-          </button>
-        </div>
-      </nav>
-    </header>
-  )
-}
-
-export default Navbar
+import React from 'react';
+const sections = [['Overview','hero'],['Explore','product-viewer'],['Design','showcase'],['Performance','performance'],['Features','features'],['Highlights','highlights']];
+const Navbar = () => <header><nav><a href="#hero" className="font-bold text-xl" aria-label="Aeron home">AERON</a><ul>{sections.map(([label,id])=><li key={id}><a href={`#${id}`}>{label}</a></li>)}</ul><div className="flex-center gap-3"><a href="#product-viewer" className="font-bold" aria-label="Explore Aeron laptop in 3D">EXPLORE IN 3D ↗</a></div></nav></header>;
+export default Navbar;
